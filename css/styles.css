@@ -15,6 +15,8 @@ body {
     list-style: none;
 }
 
+/*----------------------------------шапка-------------*/
+
 .header {
     background-color: #FFFFFF;
 }
@@ -40,6 +42,8 @@ header a {
 .header-nav {
     list-style: none;
 }
+
+/*----------------cтилізація site-nav-------------------*/
 
 .site-nav-link {
     text-decoration: none;
@@ -70,6 +74,9 @@ header a {
     color: var(--accent-color);
 }
 
+/*----------------------main-------------------*/
+/*---------------------hero--------------------*/
+
 .hero {
     background-color: #2F303A;
 }
@@ -84,14 +91,15 @@ header a {
 }
 
 .hero-button {
-        cursor: pointer;
-        color: var(--white-color);
-        font-family: inherit;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.85;
-        letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--white-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.03em;
 }
+
 .hero-button.current,
 .hero-button:hover,
 .hero-button:focus {
@@ -123,6 +131,8 @@ header a {
     letter-spacing: 0.03em;
 }
 
+/*------------------------------------staff-----------------*/
+
 .staff-list .staff-title {
     color: var(--title-text-color);
     font-weight: 500;
@@ -138,6 +148,9 @@ header a {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
+/*---------------------------portfolio-------------------*/
+/*---------------------------filter---------------------*/
 
 .button {
     cursor: pointer;
@@ -155,6 +168,31 @@ header a {
     color: var(--white-color);
     background: var(--accent-color);
 }
+
+/*--------------------------projects-------------------*/
+
+.project-list .project-link {
+    text-decoration: none;
+}
+
+
+.project-list .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2,00;
+}
+
+.project-list .text {
+    color: var(--grey-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+/*---------------------------------------footer-------------------*/
 
 .full-address {
     background: #2F303A;
