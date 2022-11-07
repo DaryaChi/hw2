@@ -27,9 +27,9 @@ header a {
 }
 
 .logo {
+    font-family: 'Raleway';
     text-decoration: none;
     color: var(--primary-text-color);
-    font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
