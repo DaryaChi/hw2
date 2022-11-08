@@ -93,6 +93,7 @@ header a {
 .hero-button {
     cursor: pointer;
     color: var(--white-color);
+    background-color: var(--accent-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
